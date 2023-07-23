@@ -1,0 +1,72 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+}
+.heading{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+#input-google{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: black;
+    background-color: rgba(234, 227, 227, 0.596);
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 1);
+    padding: 0.5rem;
+    
+}
+section.search {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 11rem;
+}
+.search img{
+    margin-bottom: 3rem;
+    height: 8rem;
+    width: 24rem;
+}
+.search .search-in{
+    width: 45rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 1);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+input[type="text"]{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0,0.6);
+    outline: none;
+}
+div.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search .btn {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 12rem;
+    height: 3rem;
+}
+input[type="submit"]{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0,0.9);
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(192, 192, 206, 0.4);
+}
+input[type="submit"]:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+}

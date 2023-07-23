@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+div.a{
+    width:7rem ;
+}
+.heading a img{
+    width: 7rem;
+    height:2.5rem;
+}
+
+.heading  span{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+    color: red;
+}
+.ad-search{
+    margin-top: 2rem;
+}
+div.text{
+    border-top: solid rgba(183, 176, 176, 0.184);
+    padding-top: 4rem;
+    display: flex;
+    margin-left: 4rem;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+span.text-a{
+    font-size: 1.5rem;
+    color: rgba(47, 45, 45, 0.529);
+}
+#right{
+    margin-left: 55rem;
+}
+.ad-search{
+    display: flex;
+    margin-left: 4rem;
+}
+span.ch1{
+    font-size: 1.2rem;
+    margin-right: 6.4rem;
+}
+input[type="text"]{
+    width: 51rem;
+    height: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: 0.1rem solid rgba(148, 140, 140, 0.552);
+}
+span.bch1{
+    margin-left: 1rem;
+    color: rgb(108, 101, 101) ;
+}
+span.ch2{
+    font-size: 1.2rem;
+    margin-right: 1.55rem;
+}
+span.ch3{
+    font-size: 1.2rem;
+    margin-right: 4.6rem;
+}
+span.ch4{
+    font-size: 1.2rem;
+    margin-right: 4rem;
+}
+div.ch2{
+    margin-top: 1.5rem;
+}
+div.ch3{
+    margin-top: 1.5rem;
+}
+div.ch4{
+    margin-top: 1.5rem;
+}
+input[type="submit"]{
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+    margin-left: 59rem;
+    margin-top: 2rem;
+    background-color: rgba(2, 57, 104, 0.832);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+input[type="submit"]:hover{
+    background-color:rgb(32, 127, 210) ;
+}
